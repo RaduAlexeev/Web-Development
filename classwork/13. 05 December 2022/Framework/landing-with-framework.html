@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Landing: Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#f5d79b',
+          },
+          borderRadius: {
+            5: "5px"
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+<body>
+  <div class="w-full">
+    <!-- header -->
+    <div class="flex justify-between items-center mx-auto w-2/3 my-4">
+      <div>
+        <p class="text-blue-600 font-bold text-3xl">Click School</p>
+      </div>
+      <div class="flex justify-between w-1/2 items-center">
+        <a href="./landing-with-framework.html" class="text-gray-400 hover:text-black">Home</a>
+        <a href="./about.html" class="text-gray-400 hover:text-black">About</a>
+        <a href="#" class="text-gray-400 hover:text-black">Pages</a>
+        <a href="#" class="text-gray-400 hover:text-black">Documentation</a>
+        <button class="bg-blue-600 rounded py-2 px-4 text-white hover:bg-blue-400 transition ease-in-out delay-150"> Buy
+          Now</button>
+      </div>
+    </div>
+    <!-- banner -->
+    <div class="bg-indigo-100">
+
+      <div class="bg-indigo-100 flex items-center w-2/3 mx-auto">
+        <div>
+          <h1 class="text-4xl">Build your next project faster</h1>
+          <p class="text-gray-400 mt-2 mb-10">Welcome to Click School. We are happy to have you here. Lorem ipsum dolor
+            sit amet
+            consectetur adipisicing
+            elit. Esse veritatis, unde porro ut quia dolores nulla veniam cupiditate qui voluptatum dolorum. Nam quae,
+            asperiores perspiciatis odio dicta expedita error voluptatum!</p>
+          <button
+            class="bg-blue-600 rounded py-2 px-4 text-white hover:bg-blue-400 font-semibold transition ease-in-out delay-150">Get
+            started</button>
+          <button class="bg-blue-200 rounded py-2 px-4 ml-2 text-blue-600 font-semibold">Learn More</button>
+        </div>
+        <div>
+          <img src="./Data extraction-rafiki.png" alt="" srcset="">
+        </div>
+      </div>
+    </div>
+    <!-- content -->
+    <div class="grid grid-cols-3 gap-8 w-2/3 mx-auto mt-6">
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="w-10 h-10 flex justify-center items-center p-3 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500">
+          <img src="./icon.png" alt="" class="w-8">
+        </div>
+        <p class="text-lg font-medium mt-3">Built for developers</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed saepe ratione ad possimus cumque soluta
+          quae ab sequi facilis blanditiis praesentium, impedit eius at debitis nam laborum delectus quam?</p>
+      </div>
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="w-10 h-10 flex justify-center items-center p-3 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500">
+          <img src="./icon.png" alt="" class="w-8">
+        </div>
+        <p class="text-lg font-medium mt-3">Built for developers</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed saepe ratione ad possimus cumque soluta
+          quae ab sequi facilis blanditiis praesentium, impedit eius at debitis nam laborum delectus quam?</p>
+      </div>
+      <div class="flex flex-col justify-center items-center text-center">
+        <div
+          class="w-10 h-10 flex justify-center items-center p-3 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500">
+          <img src="./icon.png" alt="" class="w-8">
+        </div>
+        <p class="text-lg font-medium mt-3">Built for developers</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero sed saepe ratione ad possimus cumque soluta
+          quae ab sequi facilis blanditiis praesentium, impedit eius at debitis nam laborum delectus quam?</p>
+      </div>
+    </div>
+    <!-- footer -->
+    <div></div>
+  </div>
+</body>
+
+</html>

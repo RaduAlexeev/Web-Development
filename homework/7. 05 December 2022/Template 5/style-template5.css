@@ -1,0 +1,132 @@
+.container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0 -8px;
+    margin-top: -20px;
+    height: 550px;
+    background: url(./img/background.png) no-repeat center;
+    background-size: cover;
+    background-color: rgb(83, 18, 144);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 140px;
+    margin-top: 20px;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    color: white;
+}
+
+.header-left-side h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;   
+}
+
+.header-right-side p {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.intro {
+    display: flex;
+    justify-content: flex-start;
+    margin: 0 140px;
+    height: 498px;
+    width: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color:  white;
+}
+
+.text h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-top: -60px;
+    margin-bottom: -5px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.button {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orangered;
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 700;
+    height: 35px;
+    width: 170px;
+    font-size: 13px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    background-color: orangered;
+    margin: 0 -8px;
+    padding: 0 110px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 50px 20px;
+    color: whitesmoke;
+}
+
+.box a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 100% 100%;
+    font-weight: bolder;
+    font-size: 40px;
+    color: orangered;
+    background-color: white;
+}
+
+.box h3 {
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: uppercase;
+    font-weight: bolder;
+    margin-bottom: -10px;
+}
+
+hr {
+    margin: 0 -8px;
+    border: none;
+    height: 1px;
+    background-color: white;
+}
+
+.footer-new {
+    margin: 0 -8px;
+    padding-top: 40px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: orangered;
+}
+
+.footer-new h4 {
+    text-transform: uppercase;
+    letter-spacing: -1px;
+    font-weight: 900;
+    font-size: 23px;
+    color: white;
+}

@@ -1,0 +1,13 @@
+// 4. Scrieți un program JavaScript pentru a crea un șir nou adăugând „Py” în fața
+// unui șir dat. Dacă șirul dat începe cu „Py”, atunci returnează șirul original.
+
+function appendPy(str) {
+	if(str.startsWith("Py")){
+		return str;
+	} else {
+		return "Py" + str;
+	}
+}
+
+console.log(appendPy("Vasea"));
+console.log(appendPy("PyVasea"));

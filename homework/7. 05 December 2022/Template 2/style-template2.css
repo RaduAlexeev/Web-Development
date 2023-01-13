@@ -1,0 +1,139 @@
+body {
+    font-family:Arial, Helvetica, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    width: 1335px;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(34, 77, 157);
+    margin-bottom: 20px;
+}
+
+.header__left {
+    display: flex;
+    width: 300px;
+    margin-left: 80px;
+    /* background-color: blueviolet; */
+    align-items: center;
+}
+
+.button-became-a-tester {
+    display: flex;
+    margin-left: 10px;
+    background: url("https://assets-global.website-files.com/5af97a9c84ec1bc79d81b5f4/5af982d4779b5a83a3802100_become-a-teste.svg");
+    background-position: 0%;
+    border-radius: 5px;
+    width: 140px;
+    height: 26px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header__right {
+    display: flex;
+    width: 630px;
+    margin-right: 160px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 16px;
+}
+
+.button-left {   
+    display: flex; 
+    width: 100px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid blue;
+    border-radius: 10px;
+}
+
+.button-right {   
+    display: flex; 
+    background-color: blue;
+    width: 100px;
+    height: 47px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+/* /header */
+.container__content {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 160px;
+    flex-direction: row;
+}
+
+.container__left {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 45px;
+    margin-bottom: 5px;
+    color: rgb(51, 116, 236);
+}
+
+.parag {
+    width: 500px;
+    color: darkgrey;
+    font-size: 20px;
+}
+
+.down {
+    margin-top: 25px;
+    width: 150px;
+    border-radius: 5px;
+}
+
+.container__right {
+    width: 50%;
+}
+
+/* /container__content */
+.comment {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 160px;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgb(93, 93, 93);
+}
+
+
+
+
+
+
+
+
+
+
+footer {
+    display: flex;
+    margin-left: 80px;
+    margin-right: 160px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.image {
+    width: 90%;
+}

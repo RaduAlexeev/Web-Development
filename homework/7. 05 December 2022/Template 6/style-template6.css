@@ -1,0 +1,115 @@
+/* 00E3FF - albastru deschis*/
+/* #000467 - albastru inchis */
+/* background: url(./img/bubble.png) no-repeat center fixed; */
+
+
+body {
+    margin: 0 150px;
+    background: url(./img/bubble.png) no-repeat left fixed;
+    background-size: contain;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    height: 768px;
+    /* background-color: blueviolet; */
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-left-side {
+    font-weight: bolder;
+    font-size: 27px;
+    letter-spacing: -1px;
+    color: #000467;
+}
+
+.header-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.header-right-side a {
+    margin: 0 20px;
+}
+
+.menu {
+    color: #00E3FF;
+}
+
+.button-header {
+    display: flex;
+    background-color: #000467;
+    border-radius: 25px;
+    width: 130px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    height: 600px;
+    /* background-color: brown; */
+}
+
+.information {
+    color: #0693b6;
+    width: 280px;
+}
+
+h1 {
+    margin-top: 60px;
+    font-size: 70px;
+    color: #000467;
+    margin-bottom: -20px;
+}
+
+h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 50px;
+}
+
+.button-content {
+    display: flex;
+    text-transform: uppercase;
+    color: white;
+    background-color: #0693b6;
+    border-radius: 20px;
+    width: 130px;
+    height: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    margin-left: 110px;
+}
+
+.footer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: -30px;
+    width: 100px;
+}
+
+.footer a {
+    margin-right:  20px;
+    width: 25px;
+    height: 25px;
+}
